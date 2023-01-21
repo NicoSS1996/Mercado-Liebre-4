@@ -124,7 +124,7 @@ header.main-header div.main-header-top-bar div div.busqueda input{
     .copy-header{
         max-width: 350px;
         text-align: right;
-        font-size: 10px;
+        font-size: 12px;
         padding-top: 25px;
     }
 
@@ -147,9 +147,6 @@ header.main-header div.main-header-top-bar div div.busqueda input{
 }
 
 @media (min-width: 1200px) {
-    header.main-header .copy-header{
-        padding-bottom: 60;
-    }
     .main-header-top-bar, .main-header-boton-bar {
         max-width: 1200px;
         margin: auto;
@@ -167,12 +164,27 @@ header.main-header div.main-header-top-bar div div.busqueda input{
         max-width: none;
         font-size: 22px;
         font-weight: 400;
-        margin: 0;
+        margin-bottom: 40px;
 
     }
 
     .logo {
         width: 250px;
+    }
+
+    header.main-header div.main-header-top-bar div {
+        margin-bottom: 5px;
+    }
+
+    header.main-header div.main-header-top-bar div div.busqueda {
+        width: 400px;
+    }
+    header.main-header div.main-header-top-bar div div.busqueda input {
+        height: 28px
+    };
+
+    header.main-header div.main-header-top-bar div div.busqueda button.btn {
+        height: 28px;
     }
 
     .main-header-boton-bar {
