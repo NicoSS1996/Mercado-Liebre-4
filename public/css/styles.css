@@ -180,8 +180,9 @@ header.main-header div.main-header-top-bar div div.busqueda input{
         width: 400px;
     }
     header.main-header div.main-header-top-bar div div.busqueda input {
-        height: 28px
-    };
+        height: 32px;
+        width: 30px;
+    }
 
     header.main-header div.main-header-top-bar div div.busqueda button.btn {
         height: 28px;
